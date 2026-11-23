@@ -8,10 +8,10 @@ Sports & Recreation — Volleyball (rules, rotations, positions, basic tactics, 
 
 | Name | GitHub username | Role |
 |------|-----------------|------|
-| `<Teammate 1 Name>` | `<teammate1-github-username>` | Project Leader |
+| Muhammad Izzat Fahmi Bin Murshid | izzatfahmi-ai | Project Leader |
 | Muhammad Amir Arsyad Bin Anuar | @arsydkl | Frontend Developer |
-| `<Teammate 3 Name>` | `<teammate3-github-username>` | Backend Developer / Model Integrator |
-|  Nidil Fazizul Bin Jumadil | @NIDIL-FAZIZUL | Domain Specialist |
+| Danish Firdaus Bin Saifuddin | danishfirdaus05-gif | Backend Developer / Model Integrator |
+| Nidil Fazizul Bin Jumadil | @NIDIL-FAZIZUL | Domain Specialist |
 
 # How to run
 
