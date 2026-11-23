@@ -11,7 +11,7 @@ Sports & Recreation — Volleyball (rules, rotations, positions, basic tactics, 
 | `<Teammate 1 Name>` | `<teammate1-github-username>` | Project Leader |
 | Muhammad Amir Arsyad Bin Anuar | @arsydkl | Frontend Developer |
 | `<Teammate 3 Name>` | `<teammate3-github-username>` | Backend Developer / Model Integrator |
-|  Nidil Fazizul Bin Jumdil | @NIDIL-FAZIZUL | Domain Specialist |
+|  Nidil Fazizul Bin Jumadil | @NIDIL-FAZIZUL | Domain Specialist |
 
 # How to run
 
