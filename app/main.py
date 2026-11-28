@@ -1,4 +1,10 @@
+import os
+import sys
 import streamlit as st
+
+# Let the app find the src/ folder (run from the repo root)
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from src.chatbot import get_answer
 
 st.set_page_config(page_title="VolleyBot", page_icon="🏐", layout="centered")
 
@@ -26,11 +32,9 @@ if prompt := st.chat_input("Ask a volleyball question..."):
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Placeholder reply until backend (src/) is connected
-    response = (
-        f"You asked: **{prompt}**\n\n"
-        "*(Backend is not connected yet. Once `src/` is ready, VolleyBot will answer using our volleyball dataset and LLM.)*"
-    )
+    # Get the answer from the backend
+    with st.spinner("VolleyBot is thinking..."):
+        response = get_answer(prompt, st.session_state.messages[:-1])
 
     # Show assistant reply
     with st.chat_message("assistant"):
